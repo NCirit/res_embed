@@ -30,7 +30,7 @@ public :
 
 } // namespace
 
-static AddFile_@FILE_KEY_HASH@ addFile_@FILE_KEY_HASH@;
+volatile static AddFile_@FILE_KEY_HASH@ addFile_@FILE_KEY_HASH@;
 
 namespace res {
 
