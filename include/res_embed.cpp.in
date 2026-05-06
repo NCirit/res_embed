@@ -12,10 +12,10 @@
 
 using namespace std;
 
-namespace {
-
 extern "C" const char hex_content_@FILE_KEY_HASH@[];
 extern "C" const int hex_size_@FILE_KEY_HASH@;
+
+namespace {
 
 class AddFile_@FILE_KEY_HASH@
 {
